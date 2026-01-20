@@ -1,0 +1,4 @@
+[console_scripts]
+mode_manager = test_depth.mode_manager_node:main
+slope_trigger = test_depth.slope_trigger_node:main
+

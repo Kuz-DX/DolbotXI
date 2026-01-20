@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating test_depth.egg-info
+writing test_depth.egg-info/PKG-INFO
+writing dependency_links to test_depth.egg-info/dependency_links.txt
+writing entry points to test_depth.egg-info/entry_points.txt
+writing requirements to test_depth.egg-info/requires.txt
+writing top-level names to test_depth.egg-info/top_level.txt
+writing manifest file 'test_depth.egg-info/SOURCES.txt'
+reading manifest file 'test_depth.egg-info/SOURCES.txt'
+writing manifest file 'test_depth.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test-depth.egg-link (link to .)
+
+Installed /home/jecs/ros2_ws/build/test_depth
+running symlink_data
+creating /home/jecs/ros2_ws/install/test_depth/share/ament_index
+creating /home/jecs/ros2_ws/install/test_depth/share/ament_index/resource_index
+creating /home/jecs/ros2_ws/install/test_depth/share/ament_index/resource_index/packages
+symbolically linking /home/jecs/ros2_ws/build/test_depth/resource/test_depth -> /home/jecs/ros2_ws/install/test_depth/share/ament_index/resource_index/packages
+symbolically linking /home/jecs/ros2_ws/build/test_depth/package.xml -> /home/jecs/ros2_ws/install/test_depth/share/test_depth

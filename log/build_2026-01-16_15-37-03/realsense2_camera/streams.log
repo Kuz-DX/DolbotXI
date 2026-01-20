@@ -1,0 +1,49 @@
+[0.007s] Invoking command in '/home/jecs/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jecs/ros2_ws/build/realsense2_camera -- -j8 -l8
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera_node[0m
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target realsense2_camera[0m
+[0.069s] [ 25%] Built target realsense2_camera_node
+[0.085s] [100%] Built target realsense2_camera
+[0.093s] Invoked command in '/home/jecs/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jecs/ros2_ws/build/realsense2_camera -- -j8 -l8
+[0.094s] Invoking command in '/home/jecs/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jecs/ros2_ws/build/realsense2_camera
+[0.099s] -- Install configuration: "Release"
+[0.099s] -- Execute custom install script
+[0.099s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[0.100s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[0.100s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/include/base_realsense_node.h
+[0.100s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/include/constants.h
+[0.100s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/include/dynamic_params.h
+[0.100s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/include/realsense_node_factory.h
+[0.100s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/include/ros_param_backend.h
+[0.100s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/include/t265_realsense_node.h
+[0.100s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[0.100s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/demo_pointcloud_launch.py
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/demo_t265_launch.py
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_d400_and_t265_launch.py
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_t265_launch.py
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/config/d435i.yaml
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/rviz/pointcloud.rviz
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/rviz/t265.rviz
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[0.101s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[0.102s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[0.102s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[0.102s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[0.102s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[0.102s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[0.102s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[0.102s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[0.102s] -- Symlinking: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[0.108s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[0.108s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[0.108s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.108s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[0.108s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.108s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[0.108s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[0.108s] -- Up-to-date symlink: /home/jecs/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[0.110s] Invoked command in '/home/jecs/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jecs/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jecs/ros2_ws/build/realsense2_camera

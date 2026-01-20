@@ -1,0 +1,36 @@
+running develop
+Removing /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test-depth.egg-link (link to .)
+running egg_info
+writing ../../build/test_depth/test_depth.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_depth/test_depth.egg-info/dependency_links.txt
+writing entry points to ../../build/test_depth/test_depth.egg-info/entry_points.txt
+writing requirements to ../../build/test_depth/test_depth.egg-info/requires.txt
+writing top-level names to ../../build/test_depth/test_depth.egg-info/top_level.txt
+reading manifest file '../../build/test_depth/test_depth.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_depth/test_depth.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jecs/ros2_ws/build/test_depth/build
+creating /home/jecs/ros2_ws/build/test_depth/build/lib
+creating /home/jecs/ros2_ws/build/test_depth/build/lib/test_depth
+copying test_depth/mode_manager_node.py -> /home/jecs/ros2_ws/build/test_depth/build/lib/test_depth
+copying test_depth/__init__.py -> /home/jecs/ros2_ws/build/test_depth/build/lib/test_depth
+copying test_depth/slope_trigger_node.py -> /home/jecs/ros2_ws/build/test_depth/build/lib/test_depth
+running install
+running install_lib
+creating /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test_depth
+copying /home/jecs/ros2_ws/build/test_depth/build/lib/test_depth/mode_manager_node.py -> /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test_depth
+copying /home/jecs/ros2_ws/build/test_depth/build/lib/test_depth/__init__.py -> /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test_depth
+copying /home/jecs/ros2_ws/build/test_depth/build/lib/test_depth/slope_trigger_node.py -> /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test_depth
+byte-compiling /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test_depth/mode_manager_node.py to mode_manager_node.cpython-310.pyc
+byte-compiling /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test_depth/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test_depth/slope_trigger_node.py to slope_trigger_node.cpython-310.pyc
+running install_data
+copying resource/test_depth -> /home/jecs/ros2_ws/install/test_depth/share/ament_index/resource_index/packages
+copying package.xml -> /home/jecs/ros2_ws/install/test_depth/share/test_depth
+running install_egg_info
+Copying ../../build/test_depth/test_depth.egg-info to /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test_depth-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mode_manager script to /home/jecs/ros2_ws/install/test_depth/lib/test_depth
+Installing slope_trigger script to /home/jecs/ros2_ws/install/test_depth/lib/test_depth
+writing list of installed files to '/home/jecs/ros2_ws/build/test_depth/install.log'

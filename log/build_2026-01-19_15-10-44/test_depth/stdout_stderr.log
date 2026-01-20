@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing test_depth.egg-info/PKG-INFO
+writing dependency_links to test_depth.egg-info/dependency_links.txt
+writing entry points to test_depth.egg-info/entry_points.txt
+writing requirements to test_depth.egg-info/requires.txt
+writing top-level names to test_depth.egg-info/top_level.txt
+reading manifest file 'test_depth.egg-info/SOURCES.txt'
+writing manifest file 'test_depth.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test-depth.egg-link (link to .)
+Installing mode_manager script to /home/jecs/ros2_ws/install/test_depth/lib/test_depth
+Installing slope_trigger script to /home/jecs/ros2_ws/install/test_depth/lib/test_depth
+
+Installed /home/jecs/ros2_ws/build/test_depth
+running symlink_data
+error: can't copy '/home/jecs/ros2_ws/build/test_depth/launch/send_compressed.launch.py': doesn't exist or not a regular file

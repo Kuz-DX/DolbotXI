@@ -1,0 +1,23 @@
+[0.465s] Invoking command in '/home/jecs/ros2_ws/build/test_depth': PYTHONPATH=/home/jecs/ros2_ws/build/test_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jecs/ros2_ws/build/test_depth/build --no-deps symlink_data
+[0.622s] running develop
+[0.709s] running egg_info
+[0.709s] creating test_depth.egg-info
+[0.709s] writing test_depth.egg-info/PKG-INFO
+[0.709s] writing dependency_links to test_depth.egg-info/dependency_links.txt
+[0.709s] writing entry points to test_depth.egg-info/entry_points.txt
+[0.709s] writing requirements to test_depth.egg-info/requires.txt
+[0.709s] writing top-level names to test_depth.egg-info/top_level.txt
+[0.710s] writing manifest file 'test_depth.egg-info/SOURCES.txt'
+[0.711s] reading manifest file 'test_depth.egg-info/SOURCES.txt'
+[0.712s] writing manifest file 'test_depth.egg-info/SOURCES.txt'
+[0.713s] running build_ext
+[0.713s] Creating /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test-depth.egg-link (link to .)
+[0.713s] 
+[0.713s] Installed /home/jecs/ros2_ws/build/test_depth
+[0.713s] running symlink_data
+[0.713s] creating /home/jecs/ros2_ws/install/test_depth/share/ament_index
+[0.713s] creating /home/jecs/ros2_ws/install/test_depth/share/ament_index/resource_index
+[0.713s] creating /home/jecs/ros2_ws/install/test_depth/share/ament_index/resource_index/packages
+[0.713s] symbolically linking /home/jecs/ros2_ws/build/test_depth/resource/test_depth -> /home/jecs/ros2_ws/install/test_depth/share/ament_index/resource_index/packages
+[0.714s] symbolically linking /home/jecs/ros2_ws/build/test_depth/package.xml -> /home/jecs/ros2_ws/install/test_depth/share/test_depth
+[0.731s] Invoked command in '/home/jecs/ros2_ws/build/test_depth' returned '0': PYTHONPATH=/home/jecs/ros2_ws/build/test_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jecs/ros2_ws/build/test_depth/build --no-deps symlink_data

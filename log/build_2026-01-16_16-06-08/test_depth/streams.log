@@ -1,0 +1,23 @@
+[0.339s] Invoking command in '/home/jecs/ros2_ws/src/test_depth': PYTHONPATH=/home/jecs/ros2_ws/build/test_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_depth build --build-base /home/jecs/ros2_ws/build/test_depth/build install --record /home/jecs/ros2_ws/build/test_depth/install.log --single-version-externally-managed install_data
+[0.473s] running egg_info
+[0.474s] writing ../../build/test_depth/test_depth.egg-info/PKG-INFO
+[0.474s] writing dependency_links to ../../build/test_depth/test_depth.egg-info/dependency_links.txt
+[0.474s] writing entry points to ../../build/test_depth/test_depth.egg-info/entry_points.txt
+[0.474s] writing requirements to ../../build/test_depth/test_depth.egg-info/requires.txt
+[0.474s] writing top-level names to ../../build/test_depth/test_depth.egg-info/top_level.txt
+[0.475s] reading manifest file '../../build/test_depth/test_depth.egg-info/SOURCES.txt'
+[0.475s] writing manifest file '../../build/test_depth/test_depth.egg-info/SOURCES.txt'
+[0.475s] running build
+[0.475s] running build_py
+[0.476s] running install
+[0.476s] running install_lib
+[0.477s] running install_data
+[0.477s] copying launch/send_compressed.launch.py -> /home/jecs/ros2_ws/install/test_depth/share/test_depth/launch
+[0.477s] running install_egg_info
+[0.478s] removing '/home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test_depth-0.0.0-py3.10.egg-info' (and everything under it)
+[0.479s] Copying ../../build/test_depth/test_depth.egg-info to /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test_depth-0.0.0-py3.10.egg-info
+[0.479s] running install_scripts
+[0.492s] Installing mode_manager script to /home/jecs/ros2_ws/install/test_depth/lib/test_depth
+[0.492s] Installing slope_trigger script to /home/jecs/ros2_ws/install/test_depth/lib/test_depth
+[0.492s] writing list of installed files to '/home/jecs/ros2_ws/build/test_depth/install.log'
+[0.508s] Invoked command in '/home/jecs/ros2_ws/src/test_depth' returned '0': PYTHONPATH=/home/jecs/ros2_ws/build/test_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_depth build --build-base /home/jecs/ros2_ws/build/test_depth/build install --record /home/jecs/ros2_ws/build/test_depth/install.log --single-version-externally-managed install_data
