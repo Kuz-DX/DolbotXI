@@ -1,0 +1,18 @@
+[0.429s] Invoking command in '/home/jecs/ros2_ws/build/test_depth': PYTHONPATH=/home/jecs/ros2_ws/build/test_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jecs/ros2_ws/build/test_depth/build --no-deps symlink_data
+[0.579s] running develop
+[0.671s] running egg_info
+[0.671s] writing test_depth.egg-info/PKG-INFO
+[0.671s] writing dependency_links to test_depth.egg-info/dependency_links.txt
+[0.671s] writing entry points to test_depth.egg-info/entry_points.txt
+[0.671s] writing requirements to test_depth.egg-info/requires.txt
+[0.671s] writing top-level names to test_depth.egg-info/top_level.txt
+[0.672s] reading manifest file 'test_depth.egg-info/SOURCES.txt'
+[0.673s] writing manifest file 'test_depth.egg-info/SOURCES.txt'
+[0.673s] running build_ext
+[0.674s] Creating /home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages/test-depth.egg-link (link to .)
+[0.674s] Installing mode_manager script to /home/jecs/ros2_ws/install/test_depth/lib/test_depth
+[0.674s] Installing slope_trigger script to /home/jecs/ros2_ws/install/test_depth/lib/test_depth
+[0.674s] 
+[0.674s] Installed /home/jecs/ros2_ws/build/test_depth
+[0.674s] running symlink_data
+[0.692s] Invoked command in '/home/jecs/ros2_ws/build/test_depth' returned '0': PYTHONPATH=/home/jecs/ros2_ws/build/test_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jecs/ros2_ws/install/test_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jecs/ros2_ws/build/test_depth/build --no-deps symlink_data
