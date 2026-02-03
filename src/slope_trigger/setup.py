@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 from glob import glob
 
-package_name = 'test_depth'
+package_name = 'slope_trigger'
 
 setup(
     name=package_name,
@@ -25,8 +25,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'slope_trigger = test_depth.slope_trigger_node:main',
-            'mode_manager = test_depth.mode_manager_node:main',
+            'slope_trigger = slope_trigger.slope_trigger_node:main',
+            'mode_manager = slope_trigger.mode_manager_node:main',
         ],
     },
 )

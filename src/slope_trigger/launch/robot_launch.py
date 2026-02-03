@@ -28,7 +28,7 @@ def generate_launch_description():
 
     # 2. Slope Trigger (압축 Depth 사용하도록 수정됨)
     slope_trigger = Node(
-        package='test_depth',
+        package='slope_trigger',
         executable='slope_trigger',
         name='slope_trigger_node',
         output='screen'
@@ -36,7 +36,7 @@ def generate_launch_description():
 
     # 3. Mode Manager
     mode_manager = Node(
-        package='test_depth',
+        package='slope_trigger',
         executable='mode_manager',
         name='mode_manager_node',
         output='screen'
