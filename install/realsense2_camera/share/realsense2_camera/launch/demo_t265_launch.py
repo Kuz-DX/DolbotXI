@@ -1,1 +1,0 @@
-/home/jecs/ros2_ws/src/realsense-ros/realsense2_camera/launch/demo_t265_launch.py
