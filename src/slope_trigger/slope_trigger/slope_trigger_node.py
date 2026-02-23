@@ -129,20 +129,20 @@ class slope_trigger_node(Node):
         self.bridge = CvBridge()
 
         self.sub_info = self.create_subscription(
-            CameraInfo, '/camera/depth/camera_info', self.on_info, qos_profile_sensor_data
+            CameraInfo, '/camera/camera/depth/camera_info', self.on_info, qos_profile_sensor_data
         )
         
         # [복구] Raw Depth 토픽 구독 (로컬 실행 시 성능 및 호환성 유리)
         self.sub_depth = self.create_subscription(
             Image, 
-            '/camera/depth/image_rect_raw', 
+            '/camera/camera/depth/image_rect_raw', 
             self.on_depth, 
             qos_profile_sensor_data
         )
         
         # [추가] IMU 구독
         self.sub_imu = self.create_subscription(
-            Imu, '/camera/accel/sample', self.on_imu, qos_profile_sensor_data
+            Imu, '/camera/camera/accel/sample', self.on_imu, qos_profile_sensor_data
         )
         
         self.pub_slope = self.create_publisher(Float32, '/terrain/side_slope_angle_deg', 10)
