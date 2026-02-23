@@ -1,4 +1,4 @@
-// Copyright 2023 RealSense, Inc. All Rights Reserved.
+// Copyright 2023 Intel Corporation. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -23,7 +23,7 @@ namespace realsense2_camera
     class Parameters
     {
         public:
-            Parameters(RosNodeBase& node);
+            Parameters(rclcpp::Node& node);
             ~Parameters();
             template <class T>
             T setParam(std::string param_name, const T& initial_value, 
@@ -46,9 +46,6 @@ namespace realsense2_camera
 
             template <class T>
             void queueSetRosValue(const std::string& param_name, const T value);
-       
-            template<typename T>
-            T getOrDeclareParameter(const std::string param_name, const T& initial_value);
 
             template <class T>
             T getParam(std::string param_name);
@@ -57,7 +54,7 @@ namespace realsense2_camera
             void monitor_update_functions();
 
         private:
-            RosNodeBase& _node;
+            rclcpp::Node& _node;
             rclcpp::Logger _logger;
             std::map<std::string, std::function<void(const rclcpp::Parameter&)> > _param_functions;
             std::map<void*, std::string> _param_names;

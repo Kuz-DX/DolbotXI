@@ -1,4 +1,4 @@
-// Copyright 2023 RealSense, Inc. All Rights Reserved.
+// Copyright 2023 Intel Corporation. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 
 #pragma once
 
-#include "ros_node_base.h"
+#include <rclcpp/rclcpp.hpp>
 #include <sensor_msgs/msg/image.hpp>
 
 #include <image_transport/image_transport.hpp>
@@ -32,7 +32,7 @@ public:
 class image_rcl_publisher : public image_publisher
 {
 public:
-    image_rcl_publisher( RosNodeBase & node,
+    image_rcl_publisher( rclcpp::Node & node,
                          const std::string & topic_name,
                          const rmw_qos_profile_t & qos );
     void publish( sensor_msgs::msg::Image::UniquePtr image_ptr ) override;

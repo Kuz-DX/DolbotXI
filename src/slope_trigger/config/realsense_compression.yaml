@@ -1,0 +1,7 @@
+enable_color: True
+enable_depth: True
+rgb_camera.profile: '640x480x30'
+depth_module.profile: '640x480x30'
+align_depth.enable: True
+rgb_camera.image_raw.compressed.format: 'jpeg'
+rgb_camera.image_raw.compressed.jpeg_quality: 80
